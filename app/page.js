@@ -42,7 +42,6 @@ export default function Home() {
       </header>
 
       <main className="w-full max-w-md bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
-        {/* Live Timer HUD view pinned to the top right while active */}
         {gameState === "PLAYING" && (
           <div className="flex justify-between items-center mb-4 px-2 bg-slate-100 p-2.5 rounded-xl">
             <span className="text-xs font-bold text-slate-500 tracking-wide uppercase">
