@@ -98,7 +98,7 @@ export default function Home() {
         {gameState === "WIN" && (
           <div className="text-center py-8">
             <h2 className="text-2xl font-black text-green-600 mb-2">
-              🎉 Puzzle Solved!
+              Puzzle Solved!
             </h2>
             <p className="text-slate-600 font-medium mb-1">
               Final Time:{" "}
